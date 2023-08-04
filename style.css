@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Roboto:wght@300;400&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0%;
+}
+
+.About
+{
+    padding-top: 35px;
+    padding-left: 45px;
+    display: block;
+    font-family: "Dosis";
+    font-weight: 300;
+    font-size: 30px;
+    color: #1D5756;
+}
+.Header
+{
+    background-color: #35A29F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+}
+
+.Header .Head
+{
+    background-color: #35A29F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 150px;
+    width: 50%;
+}
+
+
+.Ico:hover
+{
+    padding-top: 25px;
+    padding-right: 20px;
+    font-size: 85px;
+}
+.Icons a
+{
+    color: black;
+}
+
+.Ico
+{
+    padding-top: 30px;
+    padding-right: 25px;
+    font-size: 80px;
+}
+
+.Name
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    justify-content:space-evenly;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.Header .Photo
+{
+    border-radius:50%;
+    width : 100px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 15px;
+}
